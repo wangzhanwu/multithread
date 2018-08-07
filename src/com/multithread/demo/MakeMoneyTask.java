@@ -78,5 +78,6 @@ public class MakeMoneyTask extends RecursiveTask<Integer> {
             }
         } while (!task.isDone());
         System.out.println(task.get());
+        //就像这个程序一样，人生也需要一点变化
     }
 }
